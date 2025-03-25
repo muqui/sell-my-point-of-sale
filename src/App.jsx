@@ -2,6 +2,10 @@ import { useState } from 'react';
 import './App.css'; 
 import Navbar from './components/Navbar'; // Importar el componente Navbar
 import posImage from './assets/png/pos.png'; 
+import AboutScreen from './components/AboutScreen';
+import Features from './components/Features';
+import Gallery from './components/Gallery';
+import Pricing from './components/Pricing';
 function App() {
   const [count, setCount] = useState(0);
 
@@ -31,6 +35,10 @@ function App() {
           </div>
         </div>
       </div>
+     <AboutScreen />
+     <Features/>
+     <Gallery/> 
+     <Pricing/>
     </div>
   );
 }

@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         {/* Título o logo */}
-        <a className="navbar-brand" href="#">Navarro TECH</a>
+        <a className="navbar-brand" href="#">Navarro POS</a>
 
         {/* Botón hamburguesa en pantallas pequeñas */}
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,11 +23,12 @@ const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link" href="#">Acerca de</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Galería</a>
-            </li>
+           
             <li className="nav-item">
               <a className="nav-link" href="#">Características</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Galería</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Precios</a>
