@@ -3,11 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Features = () => {
   return (
-    <div className="container py-4">
+    <section id="features" className="bg-light mt-5">
+    <div className="container">
       <h2 className="text-center">🔹 Características Principales</h2>
       <div className="row g-4">
         <div className="col-md-6">
-          <div className="card shadow-sm p-3">
+          <div className="card  p-3 border-0">
             <h3 className="text-primary mb-3">🛒 Gestión de Ventas</h3>
             <ul className="list-unstyled">
               <li>- Registro rápido de ventas con la opción de aplicar descuentos.</li>
@@ -18,7 +19,7 @@ const Features = () => {
         </div>
 
         <div className="col-md-6">
-          <div className="card shadow-sm p-3">
+          <div className="card p-3 border-0">
             <h3 className="text-primary mb-3">📦 Inventario Inteligente</h3>
             <ul className="list-unstyled">
               <li>- Control preciso de las entradas y salidas de productos.</li>
@@ -28,7 +29,7 @@ const Features = () => {
         </div>
 
         <div className="col-md-6">
-          <div className="card shadow-sm p-3">
+          <div className="card p-3 border-0">
             <h3 className="text-primary mb-3">📊 Reportes Detallados</h3>
             <ul className="list-unstyled">
               <li>- Visualización clara de ventas, ingresos y egresos.</li>
@@ -38,7 +39,7 @@ const Features = () => {
         </div>
 
         <div className="col-md-6">
-          <div className="card shadow-sm p-3">
+          <div className="card p-3 border-0">
             <h3 className="text-primary mb-3">💰 Gestión de Caja</h3>
             <ul className="list-unstyled">
               <li>- Registro de ingresos y egresos para llevar el control financiero.</li>
@@ -48,7 +49,7 @@ const Features = () => {
         </div>
 
         <div className="col-md-6">
-          <div className="card shadow-sm p-3">
+          <div className="card p-3 border-0">
             <h3 className="text-primary mb-3">🔧 Módulo de Reparaciones</h3>
             <ul className="list-unstyled">
               <li>- Creación, edición y control de órdenes de reparación.</li>
@@ -58,7 +59,7 @@ const Features = () => {
         </div>
 
         <div className="col-md-6">
-          <div className="card shadow-sm p-3">
+          <div className="card p-3 border-0">
             <h3 className="text-primary mb-3">🔒 Seguridad y Estabilidad</h3>
             <ul className="list-unstyled">
               <li>- Información protegida gracias a PostgreSQL.</li>
@@ -69,6 +70,7 @@ const Features = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

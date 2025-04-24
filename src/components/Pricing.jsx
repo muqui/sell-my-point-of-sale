@@ -3,11 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Pricing = () => {
   return (
-    <div className="container py-5">
+    <section id="pricing" className="mt-5 bg-light">
+    <div className="container">
       <h2 className="text-center mb-4">💰 Planes de Precios</h2>
       <div className="row">
         {/* Plan Básico */}
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
           <div className="card">
             <div className="card-body text-center">
               <h4 className="card-title">Plan Básico</h4>
@@ -24,7 +25,7 @@ const Pricing = () => {
         </div>
 
         {/* Plan Estándar */}
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
           <div className="card">
             <div className="card-body text-center">
               <h4 className="card-title">Plan Estándar</h4>
@@ -41,7 +42,7 @@ const Pricing = () => {
         </div>
 
         {/* Plan Premium */}
-        <div className="col-md-4">
+        <div className="col-md-4 mb-4">
           <div className="card">
             <div className="card-body text-center">
               <h4 className="card-title">Plan Premium</h4>
@@ -58,6 +59,7 @@ const Pricing = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

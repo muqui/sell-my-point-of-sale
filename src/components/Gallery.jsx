@@ -5,7 +5,8 @@ import productsImage from '../assets/png/products.png';
 import InventoryImage from '../assets/png/inventario.png'; 
 const Gallery = () => {
   return (
-    <div className="container py-4">
+    <section id="gallery" className="mt-5 bg-light">
+    <div className="container">
       <h2 className="text-center">📸 Galería de Imágenes</h2>
       <div
         id="carouselExample"
@@ -72,6 +73,7 @@ const Gallery = () => {
         </button>
       </div>
     </div>
+    </section>
   );
 };
 
